@@ -1,0 +1,604 @@
+local G2L = {};
+
+-- StarterGui.sigmaGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[sigmaGui]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.sigmaGui.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["2"]["Size"] = UDim2.new(0.5924, 0, 0.46265, 0);
+G2L["2"]["Position"] = UDim2.new(0.2038, 0, 0.26825, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.sigmaGui.Frame.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+G2L["3"]["CornerRadius"] = UDim.new(0, 12);
+
+
+-- StarterGui.sigmaGui.Frame.UIStroke
+G2L["4"] = Instance.new("UIStroke", G2L["2"]);
+G2L["4"]["Thickness"] = 8.9;
+G2L["4"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.sigmaGui.Frame.UIStroke.UIGradient
+G2L["5"] = Instance.new("UIGradient", G2L["4"]);
+G2L["5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(0.168, Color3.fromRGB(255, 116, 0)),ColorSequenceKeypoint.new(0.329, Color3.fromRGB(255, 214, 0)),ColorSequenceKeypoint.new(0.472, Color3.fromRGB(78, 255, 0)),ColorSequenceKeypoint.new(0.623, Color3.fromRGB(0, 146, 255)),ColorSequenceKeypoint.new(0.763, Color3.fromRGB(226, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 82))};
+
+
+-- StarterGui.sigmaGui.Frame.UIStroke.UIGradient.LocalScript
+G2L["6"] = Instance.new("LocalScript", G2L["5"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.TextLabel
+G2L["7"] = Instance.new("TextLabel", G2L["2"]);
+G2L["7"]["TextWrapped"] = true;
+G2L["7"]["TextStrokeTransparency"] = 0;
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextScaled"] = true;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["BackgroundTransparency"] = 1;
+G2L["7"]["Size"] = UDim2.new(0.5414, 0, 0.08803, 0);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Text"] = [[Gay Sex Roblox GUI]];
+G2L["7"]["Position"] = UDim2.new(0.22835, 0, 0.01101, 0);
+
+
+-- StarterGui.sigmaGui.Frame.TextLabel.UIGradient
+G2L["8"] = Instance.new("UIGradient", G2L["7"]);
+G2L["8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(0.254, Color3.fromRGB(255, 116, 0)),ColorSequenceKeypoint.new(0.362, Color3.fromRGB(255, 214, 0)),ColorSequenceKeypoint.new(0.491, Color3.fromRGB(78, 255, 0)),ColorSequenceKeypoint.new(0.606, Color3.fromRGB(0, 146, 255)),ColorSequenceKeypoint.new(0.824, Color3.fromRGB(192, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(44, 0, 255))};
+
+
+-- StarterGui.sigmaGui.Frame.TextLabel.UIGradient.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["8"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.LocalScript
+G2L["a"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ImageButton
+G2L["b"] = Instance.new("ImageButton", G2L["2"]);
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["Image"] = [[rbxassetid://18684345702]];
+G2L["b"]["Size"] = UDim2.new(0.08176, 0, 0.15093, 0);
+G2L["b"]["BackgroundTransparency"] = 1;
+G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Position"] = UDim2.new(0.89572, 0, 0.81836, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ImageButton.UICorner
+G2L["c"] = Instance.new("UICorner", G2L["b"]);
+G2L["c"]["CornerRadius"] = UDim.new(0, 12);
+
+
+-- StarterGui.sigmaGui.Frame.ImageButton.LocalScript
+G2L["d"] = Instance.new("LocalScript", G2L["b"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame
+G2L["e"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["e"]["Active"] = true;
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["Size"] = UDim2.new(0.82338, 0, 0.6991, 0);
+G2L["e"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Position"] = UDim2.new(0.15409, 0, 0.11927, 0);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextBox
+G2L["f"] = Instance.new("TextBox", G2L["e"]);
+G2L["f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["f"]["TextSize"] = 44;
+G2L["f"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(60, 60, 60);
+G2L["f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f"]["MultiLine"] = true;
+G2L["f"]["Size"] = UDim2.new(1.00027, 0, 2.00375, 0);
+G2L["f"]["Position"] = UDim2.new(-0.00027, 0, -0.00508, 0);
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Text"] = [[]];
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextBox.UICorner
+G2L["10"] = Instance.new("UICorner", G2L["f"]);
+G2L["10"]["CornerRadius"] = UDim.new(0, 12);
+
+
+-- StarterGui.sigmaGui.Frame.TextLabel
+G2L["11"] = Instance.new("TextLabel", G2L["2"]);
+G2L["11"]["TextWrapped"] = true;
+G2L["11"]["BorderSizePixel"] = 0;
+G2L["11"]["TextScaled"] = true;
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["TextSize"] = 14;
+G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["BackgroundTransparency"] = 1;
+G2L["11"]["Size"] = UDim2.new(0.421, 0, 0.03694, 0);
+G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["Text"] = [[ ©tropical]];
+G2L["11"]["Position"] = UDim2.new(0.71578, 0, 0.96147, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame
+G2L["12"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["12"]["Active"] = true;
+G2L["12"]["BorderSizePixel"] = 0;
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["12"]["Size"] = UDim2.new(0.1087, 0, 0.79788, 0);
+G2L["12"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["Position"] = UDim2.new(0.01691, 0, 0.06918, 0);
+G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton
+G2L["13"] = Instance.new("TextButton", G2L["12"]);
+G2L["13"]["TextWrapped"] = true;
+G2L["13"]["TextStrokeTransparency"] = 0;
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["TextSize"] = 14;
+G2L["13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["TextScaled"] = true;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13"]["Size"] = UDim2.new(0.7917, 0, 0.17346, 0);
+G2L["13"]["BackgroundTransparency"] = 1;
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Text"] = [[Infinite Yield]];
+G2L["13"]["Position"] = UDim2.new(0.1027, 0, 0.01561, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UICorner
+G2L["14"] = Instance.new("UICorner", G2L["13"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+G2L["15"] = Instance.new("LocalScript", G2L["13"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient
+G2L["16"] = Instance.new("UIGradient", G2L["13"]);
+G2L["16"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(0.254, Color3.fromRGB(255, 116, 0)),ColorSequenceKeypoint.new(0.362, Color3.fromRGB(255, 214, 0)),ColorSequenceKeypoint.new(0.491, Color3.fromRGB(78, 255, 0)),ColorSequenceKeypoint.new(0.606, Color3.fromRGB(0, 146, 255)),ColorSequenceKeypoint.new(0.824, Color3.fromRGB(192, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(44, 0, 255))};
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+G2L["17"] = Instance.new("LocalScript", G2L["16"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton
+G2L["18"] = Instance.new("TextButton", G2L["12"]);
+G2L["18"]["TextWrapped"] = true;
+G2L["18"]["TextStrokeTransparency"] = 0;
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["TextScaled"] = true;
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18"]["Size"] = UDim2.new(0.7917, 0, 0.17346, 0);
+G2L["18"]["BackgroundTransparency"] = 1;
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[Doors]];
+G2L["18"]["Position"] = UDim2.new(0.10295, 0, 0.09408, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["18"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+G2L["1a"] = Instance.new("LocalScript", G2L["18"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient
+G2L["1b"] = Instance.new("UIGradient", G2L["18"]);
+G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(0.254, Color3.fromRGB(255, 116, 0)),ColorSequenceKeypoint.new(0.362, Color3.fromRGB(255, 214, 0)),ColorSequenceKeypoint.new(0.491, Color3.fromRGB(78, 255, 0)),ColorSequenceKeypoint.new(0.606, Color3.fromRGB(0, 146, 255)),ColorSequenceKeypoint.new(0.824, Color3.fromRGB(192, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(44, 0, 255))};
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+G2L["1c"] = Instance.new("LocalScript", G2L["1b"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton
+G2L["1d"] = Instance.new("TextButton", G2L["12"]);
+G2L["1d"]["TextWrapped"] = true;
+G2L["1d"]["TextStrokeTransparency"] = 0;
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["TextSize"] = 14;
+G2L["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["TextScaled"] = true;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d"]["Size"] = UDim2.new(0.7917, 0, 0.17346, 0);
+G2L["1d"]["BackgroundTransparency"] = 1;
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Text"] = [[AimBot/Da Hood]];
+G2L["1d"]["Position"] = UDim2.new(0.08758, 0, 0.17703, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UICorner
+G2L["1e"] = Instance.new("UICorner", G2L["1d"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+G2L["1f"] = Instance.new("LocalScript", G2L["1d"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient
+G2L["20"] = Instance.new("UIGradient", G2L["1d"]);
+G2L["20"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(0.254, Color3.fromRGB(255, 116, 0)),ColorSequenceKeypoint.new(0.362, Color3.fromRGB(255, 214, 0)),ColorSequenceKeypoint.new(0.491, Color3.fromRGB(78, 255, 0)),ColorSequenceKeypoint.new(0.606, Color3.fromRGB(0, 146, 255)),ColorSequenceKeypoint.new(0.824, Color3.fromRGB(192, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(44, 0, 255))};
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+G2L["21"] = Instance.new("LocalScript", G2L["20"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextLabel
+G2L["22"] = Instance.new("TextLabel", G2L["12"]);
+G2L["22"]["TextWrapped"] = true;
+G2L["22"]["TextStrokeTransparency"] = 0;
+G2L["22"]["ZIndex"] = 100;
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["TextScaled"] = true;
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["TextSize"] = 14;
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["BackgroundTransparency"] = 1;
+G2L["22"]["Size"] = UDim2.new(0.53727, 0, 0.40828, 0);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[Scripts]];
+G2L["22"]["Position"] = UDim2.new(0.22208, 0, -0.16604, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton
+G2L["23"] = Instance.new("TextButton", G2L["12"]);
+G2L["23"]["TextWrapped"] = true;
+G2L["23"]["TextStrokeTransparency"] = 0;
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["TextSize"] = 14;
+G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["TextScaled"] = true;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["23"]["Size"] = UDim2.new(0.7917, 0, 0.17346, 0);
+G2L["23"]["BackgroundTransparency"] = 1;
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Text"] = [[ScriptHub]];
+G2L["23"]["Position"] = UDim2.new(0.10295, 0, 0.26196, 0);
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UICorner
+G2L["24"] = Instance.new("UICorner", G2L["23"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+G2L["25"] = Instance.new("LocalScript", G2L["23"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient
+G2L["26"] = Instance.new("UIGradient", G2L["23"]);
+G2L["26"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(0.254, Color3.fromRGB(255, 116, 0)),ColorSequenceKeypoint.new(0.362, Color3.fromRGB(255, 214, 0)),ColorSequenceKeypoint.new(0.491, Color3.fromRGB(78, 255, 0)),ColorSequenceKeypoint.new(0.606, Color3.fromRGB(0, 146, 255)),ColorSequenceKeypoint.new(0.824, Color3.fromRGB(192, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(44, 0, 255))};
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+G2L["27"] = Instance.new("LocalScript", G2L["26"]);
+
+
+
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextLabel
+G2L["28"] = Instance.new("TextLabel", G2L["12"]);
+G2L["28"]["TextWrapped"] = true;
+G2L["28"]["TextStrokeTransparency"] = 0;
+G2L["28"]["ZIndex"] = 100;
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["TextScaled"] = true;
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["TextSize"] = 14;
+G2L["28"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["28"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["BackgroundTransparency"] = 1;
+G2L["28"]["Size"] = UDim2.new(0.85232, 0, 1.0234, 0);
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["Text"] = [[More Coming Soon...]];
+G2L["28"]["Position"] = UDim2.new(0.06071, 0, -0.01815, 0);
+
+
+-- StarterGui.sigmaGui.Frame.LocalScript
+G2L["29"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- StarterGui.sigmaGui.sigma
+G2L["2a"] = Instance.new("Frame", G2L["1"]);
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2a"]["Size"] = UDim2.new(0.05731, 0, 0.08489, 0);
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Name"] = [[sigma]];
+G2L["2a"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.sigmaGui.sigma.ImageButton
+G2L["2b"] = Instance.new("ImageButton", G2L["2a"]);
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["Image"] = [[rbxassetid://5430597512]];
+G2L["2b"]["Size"] = UDim2.new(0.77578, 0, 0.81489, 0);
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Position"] = UDim2.new(16.67145, 0, 10.96, 0);
+
+
+-- StarterGui.sigmaGui.sigma.ImageButton.LocalScript
+G2L["2c"] = Instance.new("LocalScript", G2L["2b"]);
+
+
+
+-- StarterGui.sigmaGui.sigma.ImageButton.UICorner
+G2L["2d"] = Instance.new("UICorner", G2L["2b"]);
+G2L["2d"]["CornerRadius"] = UDim.new(0, 12);
+
+
+-- StarterGui.sigmaGui.Frame.UIStroke.UIGradient.LocalScript
+local function C_6()
+local script = G2L["6"];
+	local uiGradient = script.Parent
+	
+	while true do
+		for i = 0, 360, 1 do
+			uiGradient.Rotation = i
+			wait(0.01)
+		end
+	end
+	
+end;
+task.spawn(C_6);
+-- StarterGui.sigmaGui.Frame.TextLabel.UIGradient.LocalScript
+local function C_9()
+local script = G2L["9"];
+	local uiGradient = script.Parent
+	
+	while true do
+		for i = 0, 360, 0.5 do
+			uiGradient.Rotation = i
+			wait(0.01)
+		end
+	end
+	
+end;
+task.spawn(C_9);
+-- StarterGui.sigmaGui.Frame.LocalScript
+local function C_a()
+local script = G2L["a"];
+	local UserInputService = game:GetService("UserInputService")
+	local Gui = script.Parent
+	local Dragging = false
+	local DragInput
+	local DragStart
+	local StartPosition
+	
+	local function update(Input)
+		local delta = Input.Position - DragStart
+		Gui.Position = UDim2.new(
+			StartPosition.X.Scale,
+			StartPosition.X.Offset + delta.X,
+			StartPosition.Y.Scale,
+			StartPosition.Y.Offset + delta.Y
+		)
+	end
+	
+	Gui.InputBegan:Connect(function(Input)
+		if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+			Dragging = true
+			DragStart = Input.Position
+			StartPosition = Gui.Position
+			Input.Changed:Connect(function()
+				if Input.UserInputState == Enum.UserInputState.End then
+					Dragging = false
+				end
+			end)
+		end
+	end)
+	
+	Gui.InputChanged:Connect(function(Input)
+		if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
+			DragInput = Input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(Input)
+		if Input == DragInput and Dragging then
+			update(Input)
+		end
+	end)
+	
+end;
+task.spawn(C_a);
+-- StarterGui.sigmaGui.Frame.ImageButton.LocalScript
+local function C_d()
+local script = G2L["d"];
+	local button = script.Parent
+	local textbox = script.Parent.Parent.ScrollingFrame.TextBox
+	local originalPos = button.Position
+	local originalSize = button.Size
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://4499400560"
+	sound.Parent = game.Workspace
+	
+	button.MouseEnter:Connect(function()
+		button:TweenSize(UDim2.new(0.082 * 1.1, 0, 0.151 * 1.1, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button:TweenSize(originalSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		sound:Play()
+	end)
+end;
+task.spawn(C_d);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+local function C_15()
+local script = G2L["15"];
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))()
+	end)
+end;
+task.spawn(C_15);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+local function C_17()
+local script = G2L["17"];
+	local uiGradient = script.Parent
+	
+	while true do
+		for i = 0, 360, 0.5 do
+			uiGradient.Rotation = i
+			wait(0.01)
+		end
+	end
+	
+end;
+task.spawn(C_17);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+local function C_1a()
+local script = G2L["1a"];
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/main/Main"))()
+	end)
+end;
+task.spawn(C_1a);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+local function C_1c()
+local script = G2L["1c"];
+	local uiGradient = script.Parent
+	
+	while true do
+		for i = 0, 360, 0.5 do
+			uiGradient.Rotation = i
+			wait(0.01)
+		end
+	end
+	
+end;
+task.spawn(C_1c);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+local function C_1f()
+local script = G2L["1f"];
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+	end)
+end;
+task.spawn(C_1f);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+local function C_21()
+local script = G2L["21"];
+	local uiGradient = script.Parent
+	
+	while true do
+		for i = 0, 360, 0.5 do
+			uiGradient.Rotation = i
+			wait(0.01)
+		end
+	end
+	
+end;
+task.spawn(C_21);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.LocalScript
+local function C_25()
+local script = G2L["25"];
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/scripthubv3xeno/refs/heads/main/scripthubv3", true))()
+	end)
+end;
+task.spawn(C_25);
+-- StarterGui.sigmaGui.Frame.ScrollingFrame.TextButton.UIGradient.LocalScript
+local function C_27()
+local script = G2L["27"];
+	local uiGradient = script.Parent
+	
+	while true do
+		for i = 0, 360, 0.5 do
+			uiGradient.Rotation = i
+			wait(0.01)
+		end
+	end
+	
+end;
+task.spawn(C_27);
+-- StarterGui.sigmaGui.Frame.LocalScript
+local function C_29()
+local script = G2L["29"];
+	local audioId = "rbxassetid://8486683243"
+	local sound = Instance.new("Sound")
+	sound.SoundId = audioId
+	sound.Parent = game.Workspace
+	
+	while true do
+		if sound.IsLoaded then
+			sound:Play()
+			break
+		end
+		wait(0.1)
+	end
+	
+end;
+task.spawn(C_29);
+-- StarterGui.sigmaGui.sigma.ImageButton.LocalScript
+local function C_2c()
+local script = G2L["2c"];
+	local button = script.Parent
+	local frame = script.Parent.Parent.Parent.Frame
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://4499400560"
+	sound.Parent = game.Workspace
+	
+	button.MouseButton1Click:Connect(function()
+		if frame.Visible then
+			frame.Visible = false
+		else
+			frame.Visible = true
+		end
+		sound:Play()
+	end)
+	
+end;
+task.spawn(C_2c);
+
+return G2L["1"], require;
